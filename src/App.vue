@@ -5,6 +5,7 @@
     <main>
       <MainBusiness/>
       <MainCompany/>
+      <MainPartner/>
     </main>
 
   </div>
@@ -14,13 +15,15 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import MainBusiness from './components/MainBusiness.vue'
 import MainCompany from './components/MainCompany.vue'
+import MainPartner from './components/MainPartner.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     MainBusiness,
-    MainCompany
+    MainCompany,
+    MainPartner,
   },
 
   data(){
