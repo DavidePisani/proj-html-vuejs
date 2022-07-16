@@ -3,7 +3,8 @@
     <HeaderComponent :headerLinks="headerLinks"/>
 
     <main>
-
+      <MainBusiness/>
+      <MainCompany/>
     </main>
 
   </div>
@@ -11,11 +12,15 @@
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import MainBusiness from './components/MainBusiness.vue'
+import MainCompany from './components/MainCompany.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    MainBusiness,
+    MainCompany
   },
 
   data(){
@@ -42,7 +47,7 @@ export default {
           },
 
           {
-            text: 'BLOGS',
+            text: 'BLOG',
             url: '#',
           },
         ],

@@ -18,17 +18,19 @@
                 hello@example.com
             </div>
             <div class="social">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
             
         </div>
     </div>
-
+    <!-- Jumbotron -->
     <div class="jumbo">
+        <!-- wrapper per oscurare un po l'immagine -->
         <div class="wrapper">
             <div class="container">
+                <!-- nav bar  -->
                 <div class="name">
                     <span class="prev">NEX</span>
                     <span>GEN</span>
@@ -46,7 +48,7 @@
                     </ul>
                 </div>
             </div>
-
+            <!-- info jumbotron -->
             <div class="container right-info">
                 <div class="info-jumbo">
                     <h1>Logistic that goes further.</h1>
@@ -135,7 +137,7 @@ export default {
                             color:$color_15;
                             background-color: rgba($color: $color_4, $alpha: 0.2);
                             padding: 7px;
-                        border-radius: 50px 0px 0px 50px;
+                            border-radius: 50px 0px 0px 50px;
                         }
                     }
 
@@ -145,18 +147,19 @@ export default {
                             display: flex;
 
                             li{
-                                padding-right: 20px;
+                                padding-right: 25px;
                                 list-style-type: none;
                                 color: $color_9;
-                                font-size: 15px;
+                                font-size: 13px;
                                 font-weight: 500;
 
 
                                 .btn{
                                     color: inherit;
                                     background-color:$color_4;
-                                    padding: 8px;
+                                    font-size: 13px;
                                     border-radius: 5px;
+                                    padding: 8px 20px;
                                 }
                             }
                         }
@@ -188,18 +191,18 @@ export default {
                         .btn{
                             color: $color_1;
                             background-color:$color_4;
-                            font-size: 15px;
+                            font-size: 13px;
                             border-radius: 5px;
-                            padding: 5px;
+                            padding: 8px 20px;
                             margin-right: 10px;
                         }
 
                         .btn-transp{
                             color: $color_1;
                             border: 1px solid $color_4 ;
-                            font-size: 15px;
+                            font-size: 13px;
                             border-radius: 5px;
-                            padding: 5px;
+                            padding: 8px 20px;
                         
                         }
                     }
