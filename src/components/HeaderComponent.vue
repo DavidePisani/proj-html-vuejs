@@ -129,7 +129,7 @@ export default {
                 
                     .name{
                         color:$color_9;
-                        padding-top: 15px;
+                        padding-top: 18px;
                         font-size: 18px;
                         font-weight: bolder;
 
@@ -142,18 +142,22 @@ export default {
                     }
 
                     .nav-links {
-                        padding-top: 15px;
+                        
                         ul{
                             display: flex;
 
                             li{
                                 padding-right: 25px;
+                                padding-top: 18px;
                                 list-style-type: none;
                                 color: $color_9;
                                 font-size: 13px;
                                 font-weight: 500;
 
-
+                                &:last-child{
+                                    padding-top: 10px;
+                                }
+                               
                                 .btn{
                                     color: inherit;
                                     background-color:$color_4;

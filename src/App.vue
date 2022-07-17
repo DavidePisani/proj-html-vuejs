@@ -6,6 +6,7 @@
       <MainBusiness/>
       <MainCompany/>
       <MainPartner/>
+      <MainNews/>
     </main>
 
   </div>
@@ -16,6 +17,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
 import MainBusiness from './components/MainBusiness.vue'
 import MainCompany from './components/MainCompany.vue'
 import MainPartner from './components/MainPartner.vue'
+import MainNews from './components/MainNews.vue'
 
 export default {
   name: 'App',
@@ -24,6 +26,7 @@ export default {
     MainBusiness,
     MainCompany,
     MainPartner,
+    MainNews,
   },
 
   data(){

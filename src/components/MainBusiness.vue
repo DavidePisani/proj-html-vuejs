@@ -64,7 +64,7 @@ export default {
             width: calc((100% / 3) - 20px);
             padding-inline: 20px;
             padding-bottom: 0;
-            margin: 0 10px;
+            margin-right:15px;
             border-radius: 10px;
             
 
