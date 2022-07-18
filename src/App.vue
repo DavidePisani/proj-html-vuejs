@@ -7,6 +7,7 @@
       <MainCompany/>
       <MainPartner/>
       <MainNews/>
+      <MainNewsLetter/>
     </main>
 
   </div>
@@ -18,6 +19,7 @@ import MainBusiness from './components/MainBusiness.vue'
 import MainCompany from './components/MainCompany.vue'
 import MainPartner from './components/MainPartner.vue'
 import MainNews from './components/MainNews.vue'
+import MainNewsLetter from './components/MainNewsLetter.vue'
 
 export default {
   name: 'App',
@@ -27,6 +29,8 @@ export default {
     MainCompany,
     MainPartner,
     MainNews,
+    MainNewsLetter,
+
   },
 
   data(){
@@ -60,6 +64,24 @@ export default {
 
         footerLinks:[
           {
+            footerTitle:"About",
+            element:[ "ciao", ],
+            itemImg:"fa-chevron-right",
+            url:"#"
+            
+          },
+          {
+            footerTitle:"About",
+            element:[ "ciao", ],
+            itemImg:"fa-chevron-right",
+            url:"#"
+            
+          },
+          {
+            footerTitle:"About",
+            element:[ "ciao", ],
+            itemImg:"fa-chevron-right",
+            url:"#"
             
           },
             
