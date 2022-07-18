@@ -37,7 +37,7 @@ export default {
     .container{
         width: 50%;
         margin: 0 auto;
-        padding-block: 100px;
+        padding-block: 110px;
         display: flex;
 
         .card{
@@ -60,7 +60,7 @@ export default {
                 color:$color_1;
                 font-size: 40px;
                 font-weight: bolder;
-                padding-left: 10px;
+                padding-left: 8px;
                 padding-bottom: 10px;
             }
             .descriprion{
@@ -85,7 +85,7 @@ export default {
                 background-color:$color_4;
                 font-size: 13px;
                 border-radius: 5px;
-                padding: 8px 20px;
+                padding: 8px 25px;
             }
         }
     }

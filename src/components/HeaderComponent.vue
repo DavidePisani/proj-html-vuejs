@@ -130,13 +130,15 @@ export default {
                     .name{
                         color:$color_9;
                         padding-top: 18px;
+                        padding-left: 20px;
                         font-size: 18px;
                         font-weight: bolder;
+                        letter-spacing: 3px;
 
                         .prev{
-                            color:$color_15;
-                            background-color: rgba($color: $color_4, $alpha: 0.2);
-                            padding: 7px;
+                            color:#00a6a6;
+                            background-color: rgba($color: $color_15, $alpha: 0.2);
+                            padding: 5px 0px 5px 25px;
                             border-radius: 50px 0px 0px 50px;
                         }
                     }
@@ -207,7 +209,6 @@ export default {
                             font-size: 13px;
                             border-radius: 5px;
                             padding: 8px 20px;
-                        
                         }
                     }
 

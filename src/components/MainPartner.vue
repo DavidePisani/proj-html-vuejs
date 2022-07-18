@@ -58,7 +58,7 @@ name:"MainPartner",
 
 .partner{
     width: 100%;
-   background-color: $color_9;
+    background-color: $color_9;
 
    .container{
     width: 55%;
