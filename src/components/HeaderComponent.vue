@@ -43,7 +43,7 @@
                         </li>
 
                         <li>
-                            <a class="btn" href="#">GET IN THOUCH </a>
+                            <a class="btn" href="#">GET IN TOUCH </a>
                         </li>
                     </ul>
                 </div>
@@ -51,10 +51,11 @@
             <!-- info jumbotron -->
             <div class="container right-info">
                 <div class="info-jumbo">
-                    <h1>Logistic that goes further.</h1>
+                    <h1>Logistics that goes further.</h1>
                     <p>For 20 years working with the most innovative in the field of transport</p>
-                    <a class="btn" href="#"> GET IN THOUCH</a>
+                    <a class="btn" href="#"> GET IN TOUCH</a>
                     <a class="btn-transp" href="#">READ MORE</a>
+                    <div class="bar"></div>
                 </div>
                 
             </div>
@@ -159,6 +160,8 @@ export default {
                                 &:last-child{
                                     padding-top: 10px;
                                 }
+
+
                                
                                 .btn{
                                     color: inherit;
@@ -178,6 +181,7 @@ export default {
                             position: absolute;
                             top: 90px;
                             left: 550px;
+                            z-index: 10;
 
                         h1{
                             color: $color_1;
@@ -209,6 +213,16 @@ export default {
                             font-size: 13px;
                             border-radius: 5px;
                             padding: 8px 20px;
+                        }
+
+                        .bar{
+                            width: 255px;
+                            height: 30px;
+                            background-color: rgba(5, 130, 131, 0.4);
+                            position: absolute;
+                            top: 32px;
+                            left: 5px;
+                            z-index: -1;
                         }
                     }
 

@@ -18,7 +18,7 @@
         </div>
 
         <div class="info">
-            <h4>Exapmle inc.</h4>
+            <h4>Example inc.</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Present diam lacus, depibus sed imperdiet consectetur.</p>
             <span><i class="fa-solid fa-phone"></i> +1(305)1234-5678 </span> 

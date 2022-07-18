@@ -131,8 +131,12 @@ nome:"FooterComponent",
                 color: $color_5;
                 padding-block: 2px;
                 font-size: 14px;
-   
+
+                &:hover{
+                   color: $color_4;
+                }
             }
+
         }       
     }
 }
@@ -153,14 +157,12 @@ nome:"FooterComponent",
             font-size: 13px;
 
             span{
-                padding-left: 3px;
                 color: $color_15;
             }
 
             i{
                 height: 100%;
                 font-size: 10px; 
-                padding-right: 3px;
                 vertical-align: -webkit-baseline-middle;
             }
         }

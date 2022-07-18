@@ -4,7 +4,7 @@
         <div class="card">
             <p class="about">ABOUT THE NETWORK</p>
             <span class="prev">The</span><span>Company</span>
-            <div class="descriprion">Whit all of the expertise and capabily comes an unrivalled commitment to custome service.</div>
+            <div class="descriprion">With all of the expertise and capabily comes an unrivalled commitment to customer service.</div>
             <!-- start -->
             <div class="mini-card">
                 <div class="percent">

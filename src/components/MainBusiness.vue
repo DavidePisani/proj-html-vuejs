@@ -2,9 +2,9 @@
     <section class="business">
         <div class="container">
             <div class="card">
-                <span>OUR BUSINESS AREA</span>
+                <span>OUR BUSINESS AREAS</span>
                 <h2>Logistics Services</h2>
-                <p>We are leaders in provaiding logistics service with a set of cuttig edge tecnologies and a team of experienced and renowned professionals </p>
+                <p>We are leaders in providing logistics service with a set of cuttig edge tecnologies and a team of experienced and renowned professionals </p>
                 <span class="tag">Traditional</span>
                 <span class="tag">Quality</span>
                 <span class="tag">Security</span><br>
