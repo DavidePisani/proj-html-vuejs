@@ -1,5 +1,5 @@
 <template>
-    <section class="business">
+    <section class="business" id="service">
         <div class="container">
             <div class="card">
                 <span>OUR BUSINESS AREAS</span>
@@ -54,7 +54,7 @@ export default {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding-block: 50px;
+    padding-block: 100px;
 
         .bg-white{
             background-color: $color_1;
@@ -90,6 +90,7 @@ export default {
 
             .tag{
                 background-color: rgba($color: $color_12, $alpha: 0.5);
+                border-radius: 3px;
                 margin-right: 5px;
                 font-size: 12px;
                 font-weight: 100;
@@ -99,13 +100,13 @@ export default {
             }
 
             .btn{
-                color: $color_1;
-                background-color:$color_4;
+                color: #edf4ec;
+                background-color: #048383;
                 text-align: center;
                 font-size: 13px;
                 border-radius: 5px;
-                padding: 5px;
-                width: 40%;
+                padding: 8px 25px;
+                display: inline-block;
             }
             
             .mini-card{

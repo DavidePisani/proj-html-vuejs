@@ -1,16 +1,19 @@
 <template>
-<section >
+<section>
     <div class="container">
         <div class="card">
             <p class="about">SAND A MESSAGE</p>
             <span>Get In</span><span class="next">Touch</span>
-            <div class="descriprion">We will respnde to your message as soon as possible</div>
+            <div class="descriprion">We will respond to your message as soon as possible</div>
             <form>
                 <input type="text" placeholder="Name">
                 <input type="email"  placeholder="Email"><br>
                 <input type="number"  placeholder="Number">
                 <select name="info" id="info" >
                     <option value="info">More Info</option>
+                    <option value="support">Support</option>
+                    <option value="ship">Shipment</option>
+                    <option value="track">Tracking</option>
                 </select><br>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
             </form>

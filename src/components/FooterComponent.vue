@@ -13,12 +13,12 @@
                 <span class="icon"><i class="fa-solid fa-location-dot"></i> Main Avenue, 987 </span> 
                 <a class="btn-transp" href="#"> GET IN TOUCH</a>
             </div>
-
+            <!-- genero 3 card con li -->
             <div v-for="element , index in footerLinks" :key="index" class="card bg-white">
                 <ul>
                     <h4>{{element.footerTitle}}</h4>
                     <li v-for="links, index in element.element" :key="index">
-                        <a href="#"><i :class='element.itemImg'></i>
+                        <a :href='element.url'><i :class='element.itemImg'></i>
                         {{links}}
                         </a>
                     </li>

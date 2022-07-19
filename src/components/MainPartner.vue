@@ -1,16 +1,13 @@
 <template>
-  <section class="partner">
+  <section class="partner" id="partners">
     <div class="container">
         <ul>
+            <!-- genero le immagini dinamicamente -->
             <li v-for="image , index in partnerImg" :key="index">
                 <img :src="image.url" :alt="image.name">
-            </li>
-
-            
-        </ul>
-       
+            </li>  
+        </ul> 
     </div>
-
   </section>
 </template>
 
@@ -19,6 +16,7 @@ export default {
 name:"MainPartner",
     data(){
         return{
+            // struttura dati per generare dinamicamente le immagini
             partnerImg:[
                 {
                     url:require("../assets/img/logo-5.png"),

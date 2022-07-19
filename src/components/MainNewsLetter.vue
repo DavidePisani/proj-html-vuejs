@@ -1,5 +1,5 @@
 <template>
-    <section class="newsletter">
+    <section class="newsletter" id="blog">
         <div class="container">
             <div class="card">
                  <p class="about">NEWSLETTER</p>

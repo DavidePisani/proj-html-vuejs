@@ -1,5 +1,5 @@
 <template>
-  <section class="company">
+  <section class="company" id="skills">
     <div class="container-company">
         <div class="card">
             <p class="about">ABOUT THE NETWORK</p>

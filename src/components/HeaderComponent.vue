@@ -39,7 +39,7 @@
                 <div class="nav-links">
                     <ul>
                         <li v-for="links,index in headerLinks " :key="index">
-                        <a href="#">{{links.text}}</a> 
+                        <a :href='links.url'>{{links.text}}</a> 
                         </li>
 
                         <li>

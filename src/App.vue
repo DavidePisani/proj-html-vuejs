@@ -42,6 +42,7 @@ export default {
 
   data(){
     return{
+      // struttura dati per compilare l'header
         headerLinks:[
           {
             text: 'HOME',
@@ -50,40 +51,43 @@ export default {
 
           {
             text: 'SERVICE',
-            url: '#',
+            url: '#service',
           },
 
           {
             text: 'SKILLS',
-            url: '#',
+            url: '#skills',
           },
 
           {
             text: 'PARTNERS',
-            url: '#',
+            url: '#partners',
           },
 
           {
             text: 'BLOG',
-            url: '#',
+            url: '#blog',
           },
         ],
-
+        // struttura dati per compilare il footer
         footerLinks:[
           {
             footerTitle:"About",
             element:[ "The Company","Institutional", "Social & Event", "Innovation", "Environment", "Technology" ],
             itemImg:"fa-solid fa-chevron-right",
+            url:"#"
           },
           {
             footerTitle:"Transportr",
             element:[ "Industrial","Chemical", "Packaged", "Construction", "Laminated Wood", "And others" ],
-            itemImg:"fa-solid fa-chevron-right", 
+            itemImg:"fa-solid fa-chevron-right",
+            url:"#" 
           },
           {
             footerTitle:"Support",
             element:[ "Responsability","Terms of Use", "About Cookies", "Privacy Policy", "Accessibility", "Information" ],
             itemImg:"fa-solid fa-chevron-right",
+            url:"#"
           },
             
         ]
@@ -94,8 +98,4 @@ export default {
 
 <style lang="scss">
  @import './assets/style/common.scss';
-#app {
-
-
-}
 </style>
