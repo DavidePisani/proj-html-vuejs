@@ -4,7 +4,7 @@
             <p>OUR EDITORIAL CONTENT</p>
             <span>Latest</span><span class="next">News</span>
             <div class="description">
-                <p class="text">Every week we publish content about what is beast in the business world</p>
+                <p class="text">Every week we publish content about what is best in the business world</p>
                <span><a class="btn" href="#">SEE ALL</a></span> 
             </div>
 
